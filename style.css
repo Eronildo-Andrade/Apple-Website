@@ -1,0 +1,30 @@
+* {
+    font-family: sans-serif;
+}
+
+.caixa-azul {
+    display: flex;
+}
+
+.titulo-iphone {
+    font-size: 30px;
+}
+
+.titulo-secundario {
+    font-size: 40px;
+}
+
+.paragrafo {
+    font-size: 15px;
+}
+
+.preco {
+    font-size: 20px;
+    color: #626262;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+img {
+    width: 450px;
+}
