@@ -5,34 +5,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iphone-apple(brasil)</title>
+    <title>Apple (brasil)</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./scripts.js"></script>
 </head>
 
-
-
 <body>
-    <div>
-        <p>menu superior</p>
+    <div class="boxpurple">
+        <img class="logo" src="img/logo.png"></img>
+        <ul>
+            <li>store</li>
+            <li>Mac</li>
+            <li>iPhone</li>
+            <li>TV e house</li>
+            <li>ipad</li>
+            <li>watch</li>
+            <li>Airpods</li>
+            <li>tools</li>
+            <li>Support</li>
+        </ul>
+    </div>
+
+    <div class="boxblue">
         <div>
+            <h1 class="titleiphone">iPhone 14</h1>
 
-            <div class="caixa-azul">
-                <div>
+            <h2 class="subtitle">So powerful. So amazing.</h2>
 
-                    <h1 class="titulo-iphone">iphone 14</h1>
+            <p class="paragraph">
+                in two perfect sizes. Now with a little of yellow
+            </p>
 
-                    <h2 class="titulo-secundario">Tão poderoso. Tão seu alcance.</h2>
+            <h3 class="price">From 633.25/month or BRL 7,599*</h3>
+            <button class="button">Buy</button>
 
-                    <p class="paragrafo">
-                        em dois tamanhos perfeito.agora com um toque de amarelo
-                    </p>
-
-                    <h3 class="preco">A partir de 633,25/mês ou R$ 7.599*</h3>
-                    <button>Comprar. </button>
-                </div>
-
-                <img src="img/iphone-azul.png">
+            <p class="choosecolor">Choose your color: </p>
+            <div>
+                <button onclick="changeColor('#81A5C4'); changeImage('img/iphone-blue.png')"
+                    class="blue colorchange"></button>
+                <button onclick="changeColor('#f7da47'); changeImage('img/iphone-yellow.png')"
+                    class="yellow colorchange"></button>
+                <button onclick="changeColor('#C1C1C1'); changeImage('img/iphone-white.png')"
+                    class="white colorchange"></button>
+                <button onclick="changeColor('#272D33'); changeImage('img/iphone-black.png')"
+                    class="black colorchange"></button>
+                <button onclick="changeColor('#EDE7F1'); changeImage('img/iphone-purple.png')"
+                    class="white colorchange"></button>
+                <button onclick="changeColor('#B50012'); changeImage('img/iphone-red.png')"
+                    class="red colorchange"></button>
             </div>
+        </div>
+
+        <div class="circle"></div>
+        <img class="iphone" src="img/iphone-blue.png">
+    </div>
 
 </body>
 
